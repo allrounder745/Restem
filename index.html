@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multi GitHub Embeds for Twitch</title>
   <style>
-    html, body {
-      width: 100%;
-      height: 100%;
+    body {
       margin: 0;
-      padding: 0;
-      background: #000;
-      overflow: hidden;
+      background-color: #000;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-auto-rows: 300px;
+      gap: 10px;
+      padding: 10px;
     }
     iframe {
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
       border: none;
     }
   </style>
-  <title>Twitch Player</title>
 </head>
 <body>
-  <iframe
-    src="https://player.twitch.tv/?channel=allrounder745&parent=allrounder745.github.io"
-    sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"
-    allowfullscreen>
-  </iframe>
+  <!-- allrounder745.github.io -->
+  <iframe src="https://player.twitch.tv/?channel=allrounder745&parent=allrounder745.github.io" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+  <!-- toxifylive.github.io -->
+  <iframe src="https://player.twitch.tv/?channel=allrounder745&parent=toxifylive.github.io" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+  <!-- jairamlinks.github.io -->
+  <iframe src="https://player.twitch.tv/?channel=allrounder745&parent=jairamlinks.github.io" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+  <!-- editverselive.github.io -->
+  <iframe src="https://player.twitch.tv/?channel=allrounder745&parent=editverselive.github.io" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+  <!-- cricketstan.github.io -->
+  <iframe src="https://player.twitch.tv/?channel=allrounder745&parent=cricketstan.github.io" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+  <!-- stmpupcricket.github.io -->
+  <iframe src="https://player.twitch.tv/?channel=allrounder745&parent=stmpupcricket.github.io" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 </body>
 </html>
